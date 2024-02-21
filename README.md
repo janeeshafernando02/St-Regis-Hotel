@@ -50,14 +50,14 @@ Follow these steps to download and set up the St Regis Hotel Colombo Website:
 
 2. **Download the Figures Folder**:
 
-i) Click on the following link to access the Google Drive folder: [St Regis Figures](https://drive.google.com/drive/folders/10jYTj3EPir3tSgwf9aJHyY_W17dccc9j?usp=sharing)
-
-ii) Inside the Google Drive folder, locate the    "Figures" folder.
-
-iii) Right-click on the "Figures" folder and select "Download" to download it to your local machine.
+   i) Click on the following link to access the Google Drive folder: [St Regis Figures](https://drive.google.com/drive/folders/10jYTj3EPir3tSgwf9aJHyY_W17dccc9j?usp=sharing)
+   
+   ii) Inside the Google Drive folder, locate the    "Figures" folder.
+   
+   iii) Right-click on the "Figures" folder and select "Download" to download it to your local machine.
 
 3. **Place the Figures Folder Inside St Regis Website Folder**:
 
-i) Once the "Figures" folder is downloaded, navigate to the local directory where you cloned the St Regis website repository.
-
-ii) Move the downloaded "Figures" folder into the St Regis website folder.
+   i) Once the "Figures" folder is downloaded, navigate to the local directory where you cloned the St Regis website repository.
+   
+  ii) Move the downloaded "Figures" folder into the St Regis website folder.
