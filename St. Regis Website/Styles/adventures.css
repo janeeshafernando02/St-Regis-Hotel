@@ -1,0 +1,96 @@
+.adventure-container {
+  padding-top: 84px;
+}
+
+.header-content {
+  margin-top: -400px;
+  margin-left: 500px;
+}
+.adventure-heading {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  margin-left: 7px;
+}
+
+.travel {
+  width: 100%;
+}
+
+.adventure-container .adventure-heading p {
+  text-align: center;
+  font-size: 65px;
+  color: rgb(177, 40, 40);
+  font-weight: 200;
+}
+.adventure-container .adventure-content {
+  margin-top: 450px;
+  padding-top: 60px;
+  padding-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 90px;
+  margin-bottom: -400px;
+  margin-left: 140px;
+  border: 0.5px solid #913434;
+  background-color: #edd0b8;
+  border-radius: 20px;
+  width: 75%;
+}
+.adventure-content .image {
+  float: right;
+  width: 45%;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.adventure-content .image-2 {
+  float: right;
+  width: 40%;
+  height: auto;
+  margin-top: 0px;
+  margin-right: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.adventure-content .image-3 {
+  float: right;
+  width: 45%;
+  height: auto;
+  margin-top: -20px;
+  margin-right: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.adventure-content .adventure-text .btn {
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+.adventure-container .adventure-content h2 {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  color: rgb(101, 99, 99);
+}
+.adventure-container .adventure-content h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  color: rgb(62, 61, 61);
+  font-style: italic;
+}
+.adventure-container .adventure-content p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(16, 16, 16);
+  padding-right: 525px;
+  text-align: left;
+}
+

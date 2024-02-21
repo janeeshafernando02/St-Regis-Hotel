@@ -1,0 +1,85 @@
+.branch-container {
+  padding-top: 84px;
+}
+
+.header-content {
+  margin-top: -290px;
+  margin-left: 580px;
+}
+.branch-heading {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+.branch-slogan {
+  margin-top: 40px;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: -40px;
+}
+.branch {
+  height: 500px;
+  width: 100%;
+}
+.container {
+  width: 30%;
+  flex-basis: calc(25% - 20px);
+  margin-bottom: 20px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  display: block;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(112, 18, 18);
+}
+
+.overlay {
+  position: relative;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  bottom: 0;
+  background: rgb(112, 18, 18);
+  color: #f1f1f1;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-top: -60px;
+  margin-left: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.branch-head {
+  margin-top: 130px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  color: rgb(141, 35, 35);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.branches {
+  margin-top: -100px;
+  margin-right: 135px;
+}
+
+.branches-context {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

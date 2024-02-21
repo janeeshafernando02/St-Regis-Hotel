@@ -1,0 +1,372 @@
+.header__container {
+  padding: 1rem 1rem 5rem 1rem;
+}
+
+.header__video__container {
+  margin-top: -50px;
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+video {
+  border-radius: 2rem;
+  width: 105%;
+}
+
+.back-video {
+  z-index: -1;
+}
+
+.header__content {
+  max-width: 600px;
+  padding: 5.5rem 2rem;
+}
+.header__container h1 {
+  margin-bottom: -6rem;
+  margin-left: 3rem;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-weight: 600;
+  color: white;
+}
+
+.header__container p {
+  color: var(--extra-light);
+  margin-top: 90px;
+  margin-left: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 5px 20px;
+  background: rgb(112, 18, 18);
+  border: solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(141, 35, 35);
+}
+
+.availability {
+  padding: 50px 7%;
+}
+
+.availability form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  background: #eee;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.availability form .box {
+  flex: 1 1 30px;
+}
+
+.availability form .box p {
+  font-size: 16px;
+  color: rgb(112, 18, 18);
+}
+
+.availability form .box .input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  color: black;
+  margin: 9px 0;
+  border-radius: 5px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.about .row .image {
+  flex: 1 1 30px;
+}
+
+.about .row .image img {
+  margin-left: 90px;
+  width: 25%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.about .row .content {
+  flex: 1 1 50px;
+}
+
+.about .row .content h3 {
+  margin-top: -400px;
+  margin-left: 500px;
+  font-size: 35px;
+  color: rgb(167, 44, 44);
+  padding-top: 1rem 2rem;
+}
+.about .row .content p {
+  margin-top: 30px;
+  margin-left: 500px;
+  margin-right: 50px;
+  font-size: 16px;
+  color: black;
+  padding-top: 1rem 2rem 1rem 2rem;
+  border-radius: 20px;
+  line-height: 2;
+}
+
+.heading {
+  margin-top: 100px;
+  font-size: 35px;
+  color: rgb(167, 44, 44);
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.room-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.room .room-card {
+  background-color: #d4cfcf;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+}
+
+.room .image {
+  height: 70%;
+  width: 70%;
+  margin-left: 3.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  position: static;
+}
+
+.room .image img {
+  width: 100%;
+  height: 300%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.room .content h3 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-left: 0.8rem;
+  font-size: 18px;
+  color: black;
+}
+.room .content li {
+  margin-left: 1.5rem;
+  font-size: 14px;
+  padding: 0.5rem 0.5rem;
+  line-height: 1.5;
+}
+
+.book-btn {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  background: rgb(150, 29, 29);
+  border: solid white;
+  border-radius: 7px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 1.7rem;
+}
+
+.book-btn:hover {
+  background: rgb(185, 64, 64);
+}
+
+.restaurant {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.restaurant-heading {
+  margin-top: -80px;
+  margin-bottom: -40px;
+}
+
+.restaurant .restaurant-container {
+  margin-top: 6rem;
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.restaurant-content {
+  margin-right: -40px;
+}
+
+.restaurant-container .restaurant-content h4 {
+  margin-top: 10px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(21, 21, 21);
+}
+
+.restaurant-container .restaurant-content p {
+  margin-left: 90px;
+  padding-right: 125px;
+  line-height: 35px;
+}
+
+.restaurant-image img {
+  width: 100%;
+  height: 95%;
+  margin-left: -90px;
+  border-radius: 10px;
+}
+
+.restaurant-container .restaurant-content .btn {
+  margin-left: 85px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: white;
+  color: rgb(141, 35, 35);
+  border: 1px solid rgb(112, 18, 18);
+  border-radius: 8px;
+}
+
+.restaurant-content .btn:hover {
+  color: rgb(185, 64, 64);
+}
+
+.meetings {
+  margin-top: -50px;
+  padding-bottom: 30px;
+  margin-right: 40px;
+}
+
+.meeting-heading {
+  margin-bottom: -40px;
+}
+
+.meetings .meeting-container {
+  margin-top: 5rem;
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.meeting-content {
+  margin-right: -40px;
+}
+
+.meeting-heading .meeting-details {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.meeting-container .meeting-content h4 {
+  margin-top: 80px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(21, 21, 21);
+}
+.meeting-container .meeting-content p {
+  margin-left: 90px;
+  padding-right: 200px;
+  line-height: 35px;
+}
+
+.meeting-container .meeting-content .details {
+  padding-right: -50px;
+}
+
+.meeting-image img {
+  width: 80%;
+  height: 100%;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+.meeting-container .meeting-content .btn {
+  margin-left: 85px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: white;
+  color: rgb(141, 35, 35);
+  border: 1px solid rgb(112, 18, 18);
+  border-radius: 8px;
+}
+.meeting-content .btn:hover {
+  color: rgb(185, 64, 64);
+}
+
+.wedding .wedding-container {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.wedding-content {
+  margin-right: -40px;
+}
+.wedding-container .wedding-content h4 {
+  margin-top: 80px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(21, 21, 21);
+}
+.wedding-container .wedding-content p {
+  margin-left: 90px;
+  padding-right: 450px;
+  line-height: 35px;
+}
+.wedding-image img {
+  width: 160%;
+  height: 90%;
+  margin-left: -250px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.wedding-container .wedding-content .btn {
+  margin-left: 85px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: white;
+  color: rgb(141, 35, 35);
+  border: 1px solid rgb(112, 18, 18);
+  border-radius: 8px;
+}
+.wedding-content .btn:hover {
+  color: rgb(185, 64, 64);
+}

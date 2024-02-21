@@ -1,0 +1,114 @@
+body {
+  margin-top: -100px;
+}
+.contact-text {
+  margin-top: 500px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.con-container {
+  margin-top: 100px;
+  margin-bottom: -100px;
+}
+
+.header-content {
+  margin-top: -350px;
+  margin-left: 550px;
+}
+
+.con-heading {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f9f8f8;
+  margin-left: -30px;
+}
+
+.contact-image {
+  margin-top: -15px;
+  width: 100%;
+}
+
+.contact-form {
+  margin-top: 60px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.privacy,
+.agree {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 25px;
+}
+
+input[type="checkbox"] {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.agree {
+  font-size: 11px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: rgb(141, 35, 35);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 850px;
+  margin-bottom: 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(199, 71, 71);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #e1e0e0;
+  padding: 20px;
+}
+
+.contact-details {
+  margin-top: 40px;
+  line-height: 40px;
+  background-color: rgb(122, 50, 50);
+  margin-left: 180px;
+  margin-right: 200px;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  border: 1px solid rgb(80, 76, 76);
+  border-radius: 2px;
+}
+
+.contact-details p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
