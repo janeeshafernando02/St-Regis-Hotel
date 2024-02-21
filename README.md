@@ -60,4 +60,4 @@ Follow these steps to download and set up the St Regis Hotel Colombo Website:
 
    i) Once the "Figures" folder is downloaded, navigate to the local directory where you cloned the St Regis website repository.
    
-  ii) Move the downloaded "Figures" folder into the St Regis website folder.
+      ii) Move the downloaded "Figures" folder into the St Regis website folder.
